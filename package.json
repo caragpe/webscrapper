@@ -1,0 +1,19 @@
+{
+  "name": "scrapper",
+  "version": "0.0.1",
+  "main": "out/index.js",
+  "author": "caragpe",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./out/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "tinyreq": "^3.4.2"
+  }
+}
