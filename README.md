@@ -14,5 +14,7 @@ yarn build
 
 To get the results:
 ```
-yarn start
+yarn start > results.log
 ```
+
+Highly recommended to output results in some log file.
